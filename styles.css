@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: rgba(100, 164, 220, 0.514);
+  font-family: Rubik;
+  font-weight: 100;
+}
+
+.header{
+height: 100px;
+width: 100%;
+align-items: center;
+display: flex;
+justify-content: center;
+background-color: rgba(100, 164, 220, 0.514);
+}
+
+.conrainer {
+  padding-left: 100px;
+  margin-top: 50px;
+}
+
+div:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: rgb(4, 9, 51);
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:focus {
+  color: rgb(67, 176, 239);
+}
+
+button:disabled {
+  background-color: rgba(9, 23, 91, 0.453);
+}
