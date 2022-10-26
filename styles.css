@@ -30,6 +30,14 @@ div:not(:last-child) {
   margin-bottom: 20px;
 }
 
+h2 {
+  margin-bottom: 15px;
+}
+
+ ul {
+  list-style-position: inside;
+ }
+
 li {
   margin-bottom: 5px;
 }
